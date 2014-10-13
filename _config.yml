@@ -1,0 +1,10 @@
+name: "Bartłomiej Antosik - strona domowa"
+description: ""
+
+url: "http://localhost:8000"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
