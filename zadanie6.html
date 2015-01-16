@@ -1,0 +1,25 @@
+---
+layout: default
+title: Podstawy programowania zadania
+maincategory: dydaktyka
+---
+<h3>Lista 6</h3>
+<p>Punktowane zadania</p>
+<ol>
+<li>Zaprojektuj klasę <code>Wanderer</code> której instancje będą mogły przyjmować polecenie:
+<code>void go(int numberOfSteps, Direction direction)</code>, które przemieści podróżnika w kierunku wyspecyfikowanym przez
+    parametr <code>direction</code> o <code>numberOfSteps</code> kroków. Obiekt klasy <code>Wanderer</code>
+    powinien móc odpowiedzieć na następujące zapytania:
+    <code>int howFarFromStart()</code> zwracające odległość od miejsca rozpoczęcia wędrówki, oraz
+    <code>int howManySteps()</code> zwracające liczbę kroków od początku istnienia obiektu.
+    <code>int howManyRotations</code> zwracające ile razy podróżnik obrócił się dookoła własnej osi.
+    Wszystkie poczynione założenia ustal z prowadzącym, oraz udokumentuj w kodzie. (2 pkt)
+</li>
+<li>
+    Klasa <code>CherryTree</code> definiuje publiczne pola <code>CherryTree[] subtrees</code> i <code>boolean hasCherry</code>.
+    Konstruktor tej klasy tworzy losowy obiekt <code>CherryTree</code> reprezentujący drzewo. Napisz ten konstruktor. Każdy węzeł tego drzewa
+    jest obiektem <code>CherryTree</code> bądź stałą <code>null</code>. Rozmiar drzewa to liczba jego węzłów <code>CherryTree</code> które nie są <code>null</code>.
+    Pole <code>hasCherry</code> wskazuje, czy w danym węźle jest wisienka.
+    Napisz funkcje rekurencyjne obliczające wysokość drzewa, rozmiar drzewa, liczbę wisienek i średnią liczbę rozgałęzień na węzeł. (2 pkt)
+</li>
+</ol>
