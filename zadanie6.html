@@ -4,7 +4,7 @@ title: Podstawy programowania zadania
 maincategory: dydaktyka
 ---
 <h3>Lista 6</h3>
-<p>Punktowane zadania</p>
+<p>Punktowane zadania 16.01.2015</p>
 <ol>
 <li>Zaprojektuj klasę <code>Wanderer</code> której instancje będą mogły przyjmować polecenie:
 <code>void go(int numberOfSteps, Direction direction)</code>, które przemieści podróżnika w kierunku wyspecyfikowanym przez
@@ -21,5 +21,21 @@ maincategory: dydaktyka
     jest obiektem <code>CherryTree</code> bądź stałą <code>null</code>. Rozmiar drzewa to liczba jego węzłów <code>CherryTree</code> które nie są <code>null</code>.
     Pole <code>hasCherry</code> wskazuje, czy w danym węźle jest wisienka.
     Napisz funkcje rekurencyjne obliczające wysokość drzewa, rozmiar drzewa, liczbę wisienek i średnią liczbę rozgałęzień na węzeł. (2 pkt)
-</li>
+fa</li>
+</ol>
+<p>Punktowane zadania 23.01.2015</p>
+<ol>
+    <li>Zaprojektuj klasę <code>StateMachine</code> modelującej deterministyczny automat skończony.
+        Instancje będą mogły przyjmować polecenie:
+        <code>void feedSignal(boolean signal)</code>, które wczytuje na wejście automatu wartość logiczną <code>signal</code>
+        i powoduje przejście automatu do następnego stanu. <code>boolean isInAcceptingState()</code> sprawdza, czy automat
+        znajduje się w stanie akceptującym. Konfiguracja automatu zadawana będzie w konstruktorze, bądź przy użyciu
+        wzorca Budowniczego. (2 pkt)
+    </li>
+    <li>
+        Zaprojektuj klasę <code>Node</code> reprezentującą węzeł systemu plików. Każdy z węzłów ma swoją nazwę i rozmiar na dysku.
+        Zaprojektuj funkcję która dla zadanego węzła w drzewie wypisuje na standardowe wyjście wszystkie węzły potomne
+        tego węzła wraz z sumarycznym rozmiarem, średnią i wariancją rozmiaru węzłów potomnych tego węzła.
+        Wygeneruj losową hierarchię o zadanej liczbie węzłów i sumarycznym rozmiarze. (3 pkt)
+    </li>
 </ol>
